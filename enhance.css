@@ -1,0 +1,18 @@
+.c-product-card__availability{
+    padding: 0.5em;
+}
+
+.disponibilidad-moderada{    
+    color: white !important;
+    background-color: darkorange;
+}
+
+.disponibilidad-inmediata{
+    color: white !important;
+    background-color: #118000;
+}
+
+.disponibilidad-nula{
+    color: white !important;    
+    background-color: #737373;
+}

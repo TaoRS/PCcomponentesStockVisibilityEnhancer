@@ -1,0 +1,19 @@
+{
+    "name": "PCComponentes.pt Stock Visibility Enhancer",
+    "version": "1.0",
+    "description": "Extension to enhance the stock visibility on pccomponentes.pt",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": [
+            "http://*.pccomponentes.pt/*",
+            "https://*.pccomponentes.pt/*",
+            "http://*.pccomponentes.es/*",
+            "https://*.pccomponentes.es/*",
+            "http://*.pccomponentes.com/*",
+            "https://*.pccomponentes.com/*"
+        ],
+        "css": ["enhance.css"]
+      }
+    ]
+  }
